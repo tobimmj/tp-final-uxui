@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio-container {
+    height: 300vh;
+    background-color: #1B2A41;
+}
+
+.header {
+    color: white;
+    gap: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: black;
+    background-color: #C1DAF8;
+    padding: 2em;
+    border-radius: 30px;
+    margin: 1em;
+    width: 100%;
+    max-width: 700px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    flex-direction: column;
+}
+
+.studies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+}
+
+.languages {
+    width: 300px;
+}
+
+.skill-label {
+    font-size: 1.25em;
+    color: white;
+    max-width: 60%;
+}
+.language-skill-label {
+    font-size: 1.25em;
+    color: white;
+    width: 200px;
+}
+
+.skills-box {
+    text-align: center;
+    padding: 1.5em 0;
+    border-radius: 20px;
+    min-width: 15em;
+    font-size: 20px;
+    margin: 1em;
+    background-color: #C1DAF8;
+}
+
+.name {
+    font-size: 4em;
+}
+
+.label {
+    font-weight: normal;
+    color: gainsboro;
+}
+
+.skill {
+  margin: 10px 0;
+  width: 300px;     
+}
+
+.skill span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #9bd6eb;
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fill {
+  background: #0b2b3a;
+  height: 100%;
+  border-radius: 10px;
+}
+.projects-container {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.project-title {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.project-card {
+    color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    margin: 30px;
+    font-size: 3em;
+}
+
+.skills {
+    height: 75vh;
+    background-color: #055573;
+}
+
+.language-skill {
+    width: 60vw;
+    display: flex;
+    gap: 2em;
+}
+
+.contact {
+    background-color: #055573;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    align-items: center;
+}
+
+.contact h3 {
+    margin-top: 15px;
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.contact-box {
+    align-items: center;
+    display: flex;
+}
+
+.contact-box p {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.contact-icon {
+    object-fit: contain;
+    width: 500px;
+    height: 250px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header, .projects{
+    height: 75vh;
+}

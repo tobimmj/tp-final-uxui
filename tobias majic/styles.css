@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio-container {
+    height: 300vh;
+    background-color: #191818;
+}
+
+.header {
+    color: white;
+    gap: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: white;
+    background-color: #353232;
+    padding: 2em;
+    border-radius: 100px;
+    margin: 1em;
+    width: 100%;
+    max-width: 700px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 60%;
+}
+
+.graphic {
+    margin: auto;   
+}
+
+.languages {
+    width: 100%;
+}
+
+.skill-label {
+    font-size: 1.25em;
+    color: white;
+    max-width: 60%;
+    text-align: center;
+    margin: auto;   
+}
+.language-skill-label {
+    font-size: 1.25em;
+    color: white;
+    width: 200px;
+}
+
+.skills-box {
+    color: white;
+    text-align: center;
+    padding: 1em 0.2em;
+    border-radius: 100%;
+    min-width: 5em;
+    font-size: 30px;
+    margin: 1em;
+    background-color: #353232;
+}
+
+.name {
+    font-size: 4em;
+}
+
+.label {
+    font-weight: normal;
+    color: gainsboro;
+}
+
+.skill {
+  margin: 10px 0;
+  width: 300px;     
+}
+
+.projects-container {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.project-image {
+    margin: 20px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.project-title {
+    width: 200px;
+    margin: auto;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+
+.project-card {
+    display: flex;
+    color: gainsboro;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    margin: 30px;
+    font-size: 3em;
+}
+
+.skills {
+    height: 75vh;
+    background-color: #534F4F;
+}
+
+.language-skill {
+    width: 60vw;
+    display: flex;
+    gap: 2em;
+}
+
+.contact {
+    background-color: #534F4F;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8em;
+}
+
+.contact-info-container {
+    gap: 5em;
+    align-items: center;
+    display: flex;
+}
+
+.contact h3 {
+    margin-top: 15px;
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.contact-box {
+    text-align: center;
+}
+
+.contact-box p {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.contact-icon {
+    object-fit: contain;
+    width: 500px;
+    height: 250px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.projects {
+    height: 150vh;
+}
+
+.header{
+    height: 75vh;
+}
