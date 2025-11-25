@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .portfolio-container {
@@ -25,6 +26,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.project-description {
+    width: 350px;
 }
 
 .description {
@@ -62,7 +67,7 @@
 .skill-label {
     font-size: 1.25em;
     color: white;
-    max-width: 60%;
+    width: 100%;
 }
 .language-skill-label {
     font-size: 1.25em;
@@ -72,11 +77,10 @@
 
 .skills-box {
     text-align: center;
-    padding: 1.5em 0;
-    border-radius: 20px;
-    min-width: 15em;
+    padding: 2em;
+    border-radius: 40px;
     font-size: 20px;
-    margin: 1em;
+    margin: 0 1em;
     background-color: #C1DAF8;
 }
 
@@ -87,6 +91,7 @@
 .label {
     font-weight: normal;
     color: gainsboro;
+    font-size: 2em;
 }
 
 .skill {
@@ -115,7 +120,6 @@
 .projects-container {
     min-height: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2em;
@@ -132,6 +136,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .title {
@@ -139,10 +144,11 @@
     color: white;
     margin: 30px;
     font-size: 3em;
+    font-weight: normal;
 }
 
 .skills {
-    height: 75vh;
+    height: 100vh;
     background-color: #055573;
 }
 
@@ -154,15 +160,21 @@
 
 .contact {
     background-color: #055573;
-    min-height: 75vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
-    gap: 5em;
     align-items: center;
 }
 
+.contacts-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5em;
+}
+
 .contact h3 {
-    margin-top: 15px;
+    margin: 30px 0;
     color: white;
     font-size: 3em;
     font-weight: normal;
@@ -170,25 +182,35 @@
 
 .contact-box {
     align-items: center;
+    justify-content: center;
     display: flex;
 }
 
 .contact-box p {
     color: white;
     font-size: 1.5em;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .contact-icon {
-    object-fit: contain;
-    width: 500px;
-    height: 250px;
+    object-fit: scale-down;
+    width: 200px;
+    height: 150px;
 }
 
 ul {
     list-style-type: none;
 }
 
-.header, .projects{
+.project-image {
+    height: 290px;
+    object-fit: fill;
+}
+
+
+.projects {
+    height: 110vh;
+}
+.header {
     height: 75vh;
 }
