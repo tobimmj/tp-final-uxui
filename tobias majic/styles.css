@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif ;
 }
 
 .portfolio-container {
@@ -44,7 +45,11 @@
 }
 
 .graphic {
-    margin: auto;   
+    margin: -60px auto;   
+}
+
+.hola {
+    font-size: 30px;
 }
 
 .languages {
@@ -100,8 +105,13 @@
 
 .project-image {
     margin: 20px;
-    width: 400px;
+    width: 250px;
     object-fit: contain;
+}
+
+.project-description {
+    font-size: 25px;
+    text-align: center
 }
 
 .project-title {
@@ -126,7 +136,7 @@
 }
 
 .skills {
-    height: 75vh;
+    height: 85vh;
     background-color: #534F4F;
 }
 
@@ -170,8 +180,9 @@
 
 .contact-icon {
     object-fit: contain;
-    width: 500px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
+    margin: 0px 100px;
 }
 
 ul {
@@ -179,7 +190,8 @@ ul {
 }
 
 .projects {
-    height: 150vh;
+    height: 170vh;
+    background-color: #191818;
 }
 
 .header{
